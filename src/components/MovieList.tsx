@@ -3,7 +3,7 @@ import { MovieListProps } from "./types";
 import axios from "axios";
 const MovieList: React.FC<MovieListProps> = ({ movies, onMovieClick }) => {
   const [isOpen, setIsOpen] = React.useState(false);
-  const url = "http://localhost:3000/movies/";
+  const url = "https://movie-api-pnlr.onrender.com/movies/";
 
   function formatDate(dateString: string): string {
     const date = new Date(dateString);

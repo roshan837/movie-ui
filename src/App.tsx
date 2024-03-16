@@ -6,7 +6,7 @@ import AddReview from "./components/AddReview";
 import axios from "axios";
 import { Review, Movie } from "./components/types";
 
-const url = "http://localhost:3000";
+const url = "https://movie-api-pnlr.onrender.com";
 
 const App: React.FC = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
